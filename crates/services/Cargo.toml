@@ -1,0 +1,11 @@
+[package]
+name = "services"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+domain = { path = "../domain" }
+ports = { path = "../ports" }
+db = { path = "../db" }
+async-trait = { workspace = true }
+tracing = { workspace = true }
